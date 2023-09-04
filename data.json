@@ -1,9 +1,44 @@
 [
   {
-    "file": "experiments/example.js",
-    "name": "Name of your experiment",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview.",
-    "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
-    "github": "https://www.github.com/pixelkind"
+    "file": "experiments/drape/drape1.js",
+    "name": "Drape (1)",
+    "description": "The Drape came about as a way to teach myself about perlin noise. My idea was to draw simple lines but have the length and proximity of each line be decided by a noise function. I expected the results to be computer-like in its precision and nature-like in its pattern, creating a fun contrast. I simply use a for-loop and draw lines along from one point to another with the points position (and line color) sometimes being decided by perlin noise.",
+    "background": "Perlin noise is a versatile mathematical formula to create pseudo-random gradient noise that feels more natural than true randomness. Because perlin noise decides the length and proximity of the lines, the whole piece looks three dimensional as we recognize the gestalt principles of “proximity” and “common fate”. ",
+    "github": "https://github.com/ju-nmd2021/creative-coding-portfolio-AxelHassellof"
+  },
+  {
+    "file": "experiments/drape/drape2.js",
+    "name": "Drape (2)",
+    "description": "The Drape came about as a way to teach myself about perlin noise. My idea was to draw simple lines but have the length and proximity of each line be decided by a noise function. I expected the results to be computer-like in its precision and nature-like in its pattern, creating a fun contrast. I simply use a for-loop and draw lines along from one point to another with the points position (and line color) sometimes being decided by perlin noise.",
+    "background": "Perlin noise is a versatile mathematical formula to create pseudo-random gradient noise that feels more natural than true randomness. Because perlin noise decides the length and proximity of the lines, the whole piece looks three dimensional as we recognize the gestalt principles of “proximity” and “common fate”. ",
+    "github": "https://github.com/ju-nmd2021/creative-coding-portfolio-AxelHassellof"
+  },
+  {
+    "file": "experiments/drape/drape3.js",
+    "name": "Drape (3)",
+    "description": "The Drape came about as a way to teach myself about perlin noise. My idea was to draw simple lines but have the length and proximity of each line be decided by a noise function. I expected the results to be computer-like in its precision and nature-like in its pattern, creating a fun contrast. I simply use a for-loop and draw lines along from one point to another with the points position (and line color) sometimes being decided by perlin noise.",
+    "background": "Perlin noise is a versatile mathematical formula to create pseudo-random gradient noise that feels more natural than true randomness. Because perlin noise decides the length and proximity of the lines, the whole piece looks three dimensional as we recognize the gestalt principles of “proximity” and “common fate”. ",
+    "github": "https://github.com/ju-nmd2021/creative-coding-portfolio-AxelHassellof"
+  },
+  {
+    "file": "experiments/drape/drape4.js",
+    "name": "Drape (4)",
+    "description": "The Drape came about as a way to teach myself about perlin noise. My idea was to draw simple lines but have the length and proximity of each line be decided by a noise function. I expected the results to be computer-like in its precision and nature-like in its pattern, creating a fun contrast. I simply use a for-loop and draw lines along from one point to another with the points position (and line color) sometimes being decided by perlin noise.",
+    "background": "Perlin noise is a versatile mathematical formula to create pseudo-random gradient noise that feels more natural than true randomness. Because perlin noise decides the length and proximity of the lines, the whole piece looks three dimensional as we recognize the gestalt principles of “proximity” and “common fate”. ",
+    "github": "https://github.com/ju-nmd2021/creative-coding-portfolio-AxelHassellof"
+  },
+  {
+    "file": "experiments/drape/drape5.js",
+    "name": "Drape (5)",
+    "description": "The Drape came about as a way to teach myself about perlin noise. My idea was to draw simple lines but have the length and proximity of each line be decided by a noise function. I expected the results to be computer-like in its precision and nature-like in its pattern, creating a fun contrast. I simply use a for-loop and draw lines along from one point to another with the points position (and line color) sometimes being decided by perlin noise.",
+    "background": "Perlin noise is a versatile mathematical formula to create pseudo-random gradient noise that feels more natural than true randomness. Because perlin noise decides the length and proximity of the lines, the whole piece looks three dimensional as we recognize the gestalt principles of “proximity” and “common fate”. ",
+    "github": "https://github.com/ju-nmd2021/creative-coding-portfolio-AxelHassellof"
+  },
+  {
+    "file": "experiments/drape/drape6.js",
+    "name": "Drape (6)",
+    "description": "The Drape came about as a way to teach myself about perlin noise. My idea was to draw simple lines but have the length and proximity of each line be decided by a noise function. I expected the results to be computer-like in its precision and nature-like in its pattern, creating a fun contrast. I simply use a for-loop and draw lines along from one point to another with the points position (and line color) sometimes being decided by perlin noise.",
+    "background": "Perlin noise is a versatile mathematical formula to create pseudo-random gradient noise that feels more natural than true randomness. Because perlin noise decides the length and proximity of the lines, the whole piece looks three dimensional as we recognize the gestalt principles of “proximity” and “common fate”. ",
+    "github": "https://github.com/ju-nmd2021/creative-coding-portfolio-AxelHassellof"
   }
 ]
