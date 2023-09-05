@@ -1,6 +1,6 @@
 let xOffset = 0;
 //let canvasWidthh = 800;
-let stepWidth = 0.5;
+let stepWidth = 2;
 
 function setup() {
   createCanvas(innerWidth, innerHeight);
