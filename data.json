@@ -1,5 +1,26 @@
 [
   {
+    "file": "experiments/flowers/flowers3.js",
+    "name": "Flowers (3)",
+    "description": "For Flowers I was simply playing with repetition of translation and rotation to create swerling flower patterns. In Flowers 3 I also used perlin noise to introduce variation to create some visual interest and organic more shapes.",
+    "background": "Perlin noise is a versatile mathematical formula to create pseudo-random gradient noise that feels more natural than true randomness. Because perlin noise decides the length and proximity of the lines, the whole piece looks three dimensional as we recognize the gestalt principles of “proximity” and “common fate”. ",
+    "github": "https://github.com/ju-nmd2021/creative-coding-portfolio-AxelHassellof"
+  },
+  {
+    "file": "experiments/flowers/flowers2.js",
+    "name": "Flowers (2)",
+    "description": "For Flowers I was simply playing with repetition of translation and rotation to create swerling flower patterns. In Flowers 3 I also used perlin noise to introduce variation to create some visual interest and organic more shapes.",
+    "background": "Perlin noise is a versatile mathematical formula to create pseudo-random gradient noise that feels more natural than true randomness. Because perlin noise decides the length and proximity of the lines, the whole piece looks three dimensional as we recognize the gestalt principles of “proximity” and “common fate”. ",
+    "github": "https://github.com/ju-nmd2021/creative-coding-portfolio-AxelHassellof"
+  },
+  {
+    "file": "experiments/flowers/flowers1.js",
+    "name": "Flowers (1)",
+    "description": "For Flowers I was simply playing with repetition of translation and rotation to create swerling flower patterns. In Flowers 3 I also used perlin noise to introduce variation to create some visual interest and organic more shapes.",
+    "background": "Perlin noise is a versatile mathematical formula to create pseudo-random gradient noise that feels more natural than true randomness. Because perlin noise decides the length and proximity of the lines, the whole piece looks three dimensional as we recognize the gestalt principles of “proximity” and “common fate”. ",
+    "github": "https://github.com/ju-nmd2021/creative-coding-portfolio-AxelHassellof"
+  },
+  {
     "file": "experiments/drape/drape1.js",
     "name": "Drape (1)",
     "description": "The Drape came about as a way to teach myself about perlin noise. My idea was to draw simple lines but have the length and proximity of each line be decided by a noise function. I expected the results to be computer-like in its precision and nature-like in its pattern, creating a fun contrast. I simply use a for-loop and draw lines along from one point to another with the points position (and line color) sometimes being decided by perlin noise.",
