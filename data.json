@@ -1,7 +1,42 @@
 [
   {
-    "file": "experiments/flowers/flowers3.js",
-    "name": "Flowers (3)",
+    "file": "experiments/noiseField/boxscape1.js",
+    "name": "Boxscape (1)",
+    "description": "Boxscape is an attempt to create some landscape looking patterns with the perlin noise tools which I have explored before.",
+    "background": "Naturalistic randomness is a perfect time to use Perlin noise which I have used before but this time I also implement the third dimension as time. This extends the natural transitions of Perlin noise to create consistent smooth transitions over time as you can see in some of the Boxscape models. At some points I draw a line in the noise and make different parts of it have a more extreme visual difference, creating islands of different visual distinction.",
+    "github": "https://github.com/ju-nmd2021/creative-coding-portfolio-AxelHassellof"
+  },
+  {
+    "file": "experiments/noiseField/boxscape2.js",
+    "name": "Boxscape (2)",
+    "description": "Boxscape is an attempt to create some landscape looking patterns with the perlin noise tools which I have explored before.",
+    "background": "Naturalistic randomness is a perfect time to use Perlin noise which I have used before but this time I also implement the third dimension as time. This extends the natural transitions of Perlin noise to create consistent smooth transitions over time as you can see in some of the Boxscape models. At some points I draw a line in the noise and make different parts of it have a more extreme visual difference, creating islands of different visual distinction.",
+    "github": "https://github.com/ju-nmd2021/creative-coding-portfolio-AxelHassellof"
+  },
+  {
+    "file": "experiments/noiseField/boxscape3.js",
+    "name": "Boxscape (3)",
+    "description": "Boxscape is an attempt to create some landscape looking patterns with the perlin noise tools which I have explored before.",
+    "background": "Naturalistic randomness is a perfect time to use Perlin noise which I have used before but this time I also implement the third dimension as time. This extends the natural transitions of Perlin noise to create consistent smooth transitions over time as you can see in some of the Boxscape models. At some points I draw a line in the noise and make different parts of it have a more extreme visual difference, creating islands of different visual distinction.",
+    "github": "https://github.com/ju-nmd2021/creative-coding-portfolio-AxelHassellof"
+  },
+  {
+    "file": "experiments/noiseField/boxscape4.js",
+    "name": "Boxscape (4)",
+    "description": "Boxscape is an attempt to create some landscape looking patterns with the perlin noise tools which I have explored before.",
+    "background": "Naturalistic randomness is a perfect time to use Perlin noise which I have used before but this time I also implement the third dimension as time. This extends the natural transitions of Perlin noise to create consistent smooth transitions over time as you can see in some of the Boxscape models. At some points I draw a line in the noise and make different parts of it have a more extreme visual difference, creating islands of different visual distinction.",
+    "github": "https://github.com/ju-nmd2021/creative-coding-portfolio-AxelHassellof"
+  },
+  {
+    "file": "experiments/noiseField/tunneler.js",
+    "name": "tunneler",
+    "description": "Out of a whish to create a tunnelling effect, I made something more akin to a tornado or ripples in water.",
+    "background": "By drawing each ring wider and wider over time, depending on where you look, I create an illusion of movement as if looking into the top of a tornado.",
+    "github": "https://github.com/ju-nmd2021/creative-coding-portfolio-AxelHassellof"
+  },
+  {
+    "file": "experiments/flowers/flowers1.js",
+    "name": "Flowers (1)",
     "description": "For Flowers I was simply playing with repetition of translation and rotation to create swerling flower patterns. In Flowers 3 I also used perlin noise to introduce variation to create some visual interest and organic more shapes.",
     "background": "Perlin noise is a versatile mathematical formula to create pseudo-random gradient noise that feels more natural than true randomness. Because perlin noise decides the length and proximity of the lines, the whole piece looks three dimensional as we recognize the gestalt principles of “proximity” and “common fate”. ",
     "github": "https://github.com/ju-nmd2021/creative-coding-portfolio-AxelHassellof"
@@ -14,8 +49,8 @@
     "github": "https://github.com/ju-nmd2021/creative-coding-portfolio-AxelHassellof"
   },
   {
-    "file": "experiments/flowers/flowers1.js",
-    "name": "Flowers (1)",
+    "file": "experiments/flowers/flowers3.js",
+    "name": "Flowers (3)",
     "description": "For Flowers I was simply playing with repetition of translation and rotation to create swerling flower patterns. In Flowers 3 I also used perlin noise to introduce variation to create some visual interest and organic more shapes.",
     "background": "Perlin noise is a versatile mathematical formula to create pseudo-random gradient noise that feels more natural than true randomness. Because perlin noise decides the length and proximity of the lines, the whole piece looks three dimensional as we recognize the gestalt principles of “proximity” and “common fate”. ",
     "github": "https://github.com/ju-nmd2021/creative-coding-portfolio-AxelHassellof"

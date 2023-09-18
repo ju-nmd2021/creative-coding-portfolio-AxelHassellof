@@ -11,7 +11,7 @@ function setup() {
 
 function draw() {
   background(255);
-  //translate(-noise(xOffset) * 400, 0);
+
   strokeWeight(5);
 
   for (i = 0; i < width * 2; i += stepWidth) {
