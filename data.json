@@ -1,5 +1,12 @@
 [
   {
+    "file": "experiments/sounds/sounds.js",
+    "name": "Volume Field",
+    "description": "A perpetual synth chord which notes fluctuate in volume together with the random visual color fields.",
+    "background": "I used the same graphics from 'Boxscape (1)' as a base and messed around with Tone.js.",
+    "github": "https://github.com/ju-nmd2021/creative-coding-portfolio-AxelHassellof"
+  },
+  {
     "file": "experiments/noiseField/boxscape1.js",
     "name": "Boxscape (1)",
     "description": "Boxscape is an attempt to create some landscape looking patterns with the perlin noise tools which I have explored before.",

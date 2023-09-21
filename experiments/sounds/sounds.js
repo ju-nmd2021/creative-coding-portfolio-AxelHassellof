@@ -1,40 +1,110 @@
-// controller input tutorial: https://www.youtube.com/watch?v=GOjMP6WY8CU&ab_channel=CodingWithAdam
-// easy controller tester: https://codingwith-adam.github.io/gamepad-tester/
-// gamepad api mozilla: https://developer.mozilla.org/en-US/docs/Web/API/Gamepad_API/Using_the_Gamepad_API
+//reference video: https://www.youtube.com/watch?v=BjoM9oKOAKY&list=PLRqwX-V7Uu6bgPNQAdxQZpJuJCjeOr7VD&index=6&ab_channel=TheCodingTrain
 
-// let controller = {
-//   ctrlIndex: null,
-//   btnOne: false,
-//   btnTwo: false,
-//   btnThree: false,
-//   btnFour: false,
-//   btnFive: false,
-//   btnSix: false,
-// };
+let vectorScale = 10;
+const increment = 0.02;
+let zOff = 0;
 
-// window.addEventListener("gamepadconnected", (e) => {
-//   controller.ctrlIndex = e.gamepad.index;
-//   controller.btnOne = e.gamepad.buttons[0];
+const synthBlack = new Tone.AMSynth().toDestination();
+const synthWhite = new Tone.AMSynth().toDestination();
+const synthGrey = new Tone.AMSynth().toDestination();
 
-//   const gamepad = navigator.getGamepads()[controller.ctrlIndex];
-//   console.log(navigator.getGamepads()[controller.ctrlIndex]);
-// });
+function setup() {
+  createCanvas(400, 400);
+  //noLoop();
+  noStroke();
+  frameRate(30);
+}
 
-// window.addEventListener("load", () => {
-//   const synth = new Tone.MonoSynth().toDestination();
-//   synth.triggerAttackRelease("C4", "8n");
-// });
+window.addEventListener("click", function () {
+  Tone.Transport.start();
+});
 
-// window.addEventListener("keydown", (event) => {
-//   if (event.key === "g") {
-//     const synth = new Tone.Synth().toDestination();
-//     synth.triggerAttackRelease("C4", "4n");
-//   }
-// });
+function draw() {
+  background(255);
 
-// window.addEventListener("keydown", (event) => {
-//   if (event.key === "h") {
-//     const synth = new Tone.Synth().toDestination();
-//     synth.triggerAttackRelease("E4", "4n");
-//   }
-// });
+  let nrOfBlack = 0;
+  let nrOfWhite = 0;
+  let nrOfGrey = 0;
+
+  let cols = floor(width / vectorScale);
+  let rows = floor(height / vectorScale);
+
+  let yOff = 0;
+
+  for (let y = 0; y < rows; y++) {
+    let xOff = 0;
+
+    for (let x = 0; x < cols; x += 1) {
+      let perlRand = noise(xOff, yOff, zOff) * TWO_PI;
+      //console.log(noise(xOff, yOff, zOff));
+      //let vect = p5.Vector.fromAngle(perlRand);
+      push();
+      translate(x * vectorScale, y * vectorScale);
+      // rotate(vect.heading());
+      // line(0, 0, vectorScale, 0);
+
+      if (noise(xOff, yOff, zOff) >= 0.5) {
+        fill(0);
+        nrOfBlack++;
+      } else if (noise(xOff, yOff, zOff) >= 0.35) {
+        fill(255);
+        nrOfWhite++;
+      } else {
+        fill(100, 100, 100);
+        nrOfGrey++;
+      }
+      rect(0, 0, vectorScale, vectorScale);
+      pop();
+
+      xOff += increment;
+    }
+    yOff += increment;
+  }
+  zOff += increment;
+
+  if (Tone.Transport.state == "started") {
+    let volumeBlack = map(
+      nrOfBlack,
+      0,
+      (width / vectorScale) * (height / vectorScale),
+      -17,
+      0
+    );
+    let volumeWhite = map(
+      nrOfWhite,
+      0,
+      (width / vectorScale) * (height / vectorScale),
+      -17,
+      0
+    );
+    let volumeGrey = map(
+      nrOfGrey,
+      0,
+      (width / vectorScale) * (height / vectorScale),
+      -17,
+      0
+    );
+
+    synthBlack.volume.value = volumeBlack;
+    synthWhite.volume.value = volumeWhite;
+    synthGrey.volume.value = volumeGrey;
+    synthBlack.triggerAttackRelease("C3", "16n");
+    synthWhite.triggerAttackRelease("E2", "16n");
+    synthGrey.triggerAttackRelease("A3", "16n");
+
+    // if (noise(zOff) > 0.6) {
+    //   synthBlack.triggerAttackRelease("C3", "16n");
+    //   synthWhite.triggerAttackRelease("E3", "16n");
+    //   synthGrey.triggerAttackRelease("A3", "16n");
+    // } else if (noise(zOff) > 0.3) {
+    //   synthBlack.triggerAttackRelease("A3", "16n");
+    //   synthWhite.triggerAttackRelease("G3", "16n");
+    //   synthGrey.triggerAttackRelease("F3", "16n");
+    // } else {
+    //   synthBlack.triggerAttackRelease("B4", "16n");
+    //   synthWhite.triggerAttackRelease("B3", "16n");
+    //   synthGrey.triggerAttackRelease("B2", "16n");
+    // }
+  }
+  // console.log(nrOfBlack);
+}
