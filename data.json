@@ -1,5 +1,33 @@
 [
   {
+    "file": "experiments/variants/boxscape2variantThree.js",
+    "name": "Boxscape (2) variant (2) two too",
+    "description": "A perpetual synth chord which notes fluctuate in volume together with the random visual color fields.",
+    "background": "I used the same graphics from 'Boxscape (1)' as a base and messed around with Tone.js.",
+    "github": "https://github.com/ju-nmd2021/creative-coding-portfolio-AxelHassellof"
+  },
+  {
+    "file": "experiments/variants/boxscape2variant2.js",
+    "name": "Boxscape (2) variant (2) two",
+    "description": "A perpetual synth chord which notes fluctuate in volume together with the random visual color fields.",
+    "background": "I used the same graphics from 'Boxscape (1)' as a base and messed around with Tone.js.",
+    "github": "https://github.com/ju-nmd2021/creative-coding-portfolio-AxelHassellof"
+  },
+  {
+    "file": "experiments/variants/tunnelerVariant.js",
+    "name": "Boxscape (2) variant",
+    "description": "A perpetual synth chord which notes fluctuate in volume together with the random visual color fields.",
+    "background": "I used the same graphics from 'Boxscape (1)' as a base and messed around with Tone.js.",
+    "github": "https://github.com/ju-nmd2021/creative-coding-portfolio-AxelHassellof"
+  },
+  {
+    "file": "experiments/variants/boxscape2variant.js",
+    "name": "Boxscape (2) variant",
+    "description": "A perpetual synth chord which notes fluctuate in volume together with the random visual color fields.",
+    "background": "I used the same graphics from 'Boxscape (1)' as a base and messed around with Tone.js.",
+    "github": "https://github.com/ju-nmd2021/creative-coding-portfolio-AxelHassellof"
+  },
+  {
     "file": "experiments/sounds/sounds.js",
     "name": "Volume Field",
     "description": "A perpetual synth chord which notes fluctuate in volume together with the random visual color fields.",
